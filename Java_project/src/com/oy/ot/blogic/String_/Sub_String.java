@@ -6,7 +6,7 @@ public class Sub_String {
 		System.out.println(s);
 		System.out.println(s.substring(6));// prints the output from 6 th letter onwards
 		System.out.println(s.substring(0, 5));// prints the in between letter
-		String[] str=s.split(" ",2);
+		String[] str=s.split(" ");
 		//System.out.println(s.split("is"));
 		for(String a:str)
 			System.out.println(a);
